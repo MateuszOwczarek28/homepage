@@ -1,0 +1,12 @@
+.table {
+    margin: auto;
+    font-size: "Arial" sans-serif;
+    font-size: small;
+    border-collapse: collapse;
+
+}
+
+.table__tablleCell {
+    border: 1px solid black;
+    padding: 20px;
+}

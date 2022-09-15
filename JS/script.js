@@ -9,10 +9,10 @@
     };
 
     welcome();
-    
-    let button = document.querySelector(".button")
-    let main = document.querySelector(".article")
-    let nextName = document.querySelector(".nextName")
+
+    const button = document.querySelector(".button")
+    const main = document.querySelector(".article")
+    const nextName = document.querySelector(".nextName")
 
     button.addEventListener("click", OnChangeBacgroundClic);
 }

@@ -3,7 +3,7 @@
 ## Description
 It's my first web-project about me and my passions.
 
-![view web](wizytowka\picture\scan.png)
+![view web](https://github.com/MateuszOwczarek28/homepage/blob/main/picture/scan.png)
 
 **I use and learn: CSS, HTML, JS, BEM**
 

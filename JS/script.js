@@ -2,7 +2,7 @@
     const welcome = () => {
         console.log("Witajcie w mojej wizytówce,zapraszam do przejrzenia jej.")
     };
-
+    welcome()
     const onChangeBackgroundClick = () => {
         const main = document.querySelector(".article");
         const nextName = document.querySelector(".nextName");

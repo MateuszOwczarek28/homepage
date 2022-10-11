@@ -1,14 +1,14 @@
 {
     const welcome = () => {
-        console.log("Witajcie w mojej wizytówce,zapraszam do przejrzenia jej.")
+        console.log("Witajcie w mojej wizytówce,zapraszam do przejrzenia jej.");
     };
-    welcome()
+    welcome();
+
     const onChangeBackgroundClick = () => {
         const main = document.querySelector(".article");
         const nextName = document.querySelector(".nextName");
-
         main.classList.toggle("article__change-js");
-        nextName.innerText = main.classList.contains("article__change-js") ? "szare" : "białe"
+        nextName.innerText = main.classList.contains("article__change-js") ? "szare" : "jasne"
     };
 
     const init = () => {

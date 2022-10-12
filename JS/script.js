@@ -11,15 +11,6 @@
         nextName.innerText = main.classList.contains("article__change-js") ? "szare" : "jasne"
     };
 
-    const init = () => {
-        welcome();
-
-        const button =
-            document.querySelector(".button");
-
-        button.addEventListener("click", onChangeBackgroundClick);
-    };
-
     const button = document.querySelector(".button");
     button.addEventListener("click", onChangeBackgroundClick);
 }
